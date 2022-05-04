@@ -1,0 +1,12 @@
+{
+    "name": "Hide Twitter Name",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "Web版Twitterの左下の名前とユーザー名を非表示にする拡張機能です。",
+    "content_scripts": [
+        {
+            "matches": [ "https://twitter.com/*" ],
+            "css": [ "style.css" ]
+        }
+    ]
+  }
